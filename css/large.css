@@ -54,3 +54,40 @@ body {
 .navbar-float-right {
     float: right
 }
+
+.main {
+    padding: 0;
+    margin: 0;
+}
+
+.introduction {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to bottom, rgba(87, 87, 87, 0.387), rgba(5, 4, 42, 0.73)), url('../images/introduction-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.introduction-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.introduction-h1 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+}
+
+.introduction-h4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
