@@ -113,7 +113,6 @@ body {
 }
 
 /*Resume*/
-
 .resume a:hover {
     background-color: #1af7ffe7;
     color: rgb(0, 33, 57);
@@ -123,16 +122,101 @@ body {
     font-size: 15px;
 }
 
-/*Social Media Links*/
-
-.social-media-links {
+/*Introduction Social Media Links*/
+.introduction-social-media-links {
     padding-top: 50px;
+    padding-bottom: 40px;
     width: 260px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.social-media-links a:hover {
+.introduction-social-media-links a:hover {
+    background-color: #1af7ffe7;
+    color: rgb(0, 33, 57);
+}
+
+/*Section Headings*/
+.section-headings-h2 {
+    color: #1af7ffe7;
+    text-align: center;
+}
+
+/*About Section*/
+.about-1 {
+    padding-top: 75px;
+    padding-left: 15%;
+    padding-right: 15%;
+    border: 10px;
+    width: 300px;
+    border-color: #1af7ffe7;
+}
+
+.about {
+    background-color: rgb(0, 33, 57);
+    width: 1000px;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin;
+}
+
+.about-heading {
+    width: 110px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-image {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.skills {
+    background-color: rgb(0, 33, 57);
+    width: 500px;
+    border: 15px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.shadow {
+    -moz-box-shadow: 0 0 5px 2px rgb(0, 11, 19);
+    -webkit-box-shadow: 0 0 5px 2px rgb(0, 11, 19);
+    box-shadow: 0 0 5px 2px rgb(0, 11, 19);
+}
+
+.footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(0, 11, 19);
+}
+
+.footer-copyrights {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social-media-links {
+    padding-top: 0px;
+    padding-bottom: 45px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social-media-links a:hover {
     background-color: #1af7ffe7;
     color: rgb(0, 33, 57);
 }
