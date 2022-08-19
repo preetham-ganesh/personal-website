@@ -64,6 +64,10 @@ body {
     font-size: 15px;
 }
 
+.font-size-14 {
+    font-size: 14px;
+}
+
 .btn-float-right {
     float: right
 }
@@ -107,6 +111,7 @@ body {
     margin: 10px;
 }
 
+/*Resume*/
 .resume {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -115,7 +120,6 @@ body {
     margin-right: auto;
 }
 
-/*Resume*/
 .resume a:hover {
     background-color: #1af7ffe7;
     color: rgb(0, 33, 57);
@@ -140,9 +144,15 @@ body {
 }
 
 /*Section Headings*/
-.section-headings-h2 {
+.section-heading-h2 {
     color: #1af7ffe7;
     text-align: center;
+}
+
+.section-heading {
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*About Section*/
@@ -151,7 +161,6 @@ body {
     width: 1000px;
     padding: 25px;
     margin-top: 25px;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border: thin;
@@ -159,9 +168,6 @@ body {
 
 .about-heading {
     width: 110px;
-    padding-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .about-profile-image {
@@ -181,6 +187,7 @@ body {
     color: #1af7ffe7;
 }
 
+/*Hover on Animation*/
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -199,20 +206,76 @@ body {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-  
+
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
+/*Experience Section*/
+.experience-heading {
+    width: 125px;
+}
+
+.experience {
+    width: 1050px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6px;
+    padding-bottom: 25px;
+    height: 150px;
+}
+
+.experience-child {
+    background-color: rgb(0, 33, 57);
+    width: 27%;
+    padding: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 50px;
+    border: thin;
+    float: left;
+}
+
+.experience-company-a {
+    color: #1af7ffe7;
+    text-decoration: none;
+}
+
+.experience-position {
+    font-size: 17px;
+    color: rgb(193, 169, 208);
+}
+
+.experience-details {
+    color: rgb(144, 170, 189);
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+.experience-logo {
+    height: 32px;
+    background-color: white;
+}
+
+/*Skills Section*/
 .skills {
     background-color: rgb(0, 33, 57);
     width: 500px;
     border: 15px;
     padding: 50px;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+.skills-heading {
+    width: 65px;
+}
 
 .shadow {
     -moz-box-shadow: 0 0 5px 2px rgb(0, 11, 19);
