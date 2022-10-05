@@ -11,9 +11,9 @@ body {
 /*Navigation bar*/
 .navbar {
     padding-top: 25px;
-    padding-bottom: 73px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
