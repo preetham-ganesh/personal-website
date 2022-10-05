@@ -10,10 +10,14 @@ body {
 
 /*Navigation bar*/
 .navbar {
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     position: -webkit-sticky;
 	position: sticky;
     background-color: #003c67;
+    height: 40px;
 }
 
 .btn {
