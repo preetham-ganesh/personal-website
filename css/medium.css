@@ -19,3 +19,35 @@ body {
 	top: 0;
     background-color: #003c67;
 }
+
+.btn {
+    float: left;
+    display: block;
+    color: #1af7ffe7;
+    text-align: center;
+    background-color: #003c67;
+    text-decoration: none;
+    border-color: #1af7ffe7;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar a:hover {
+    background-color: #1af7ffe7;
+    color: #003c67;
+}
+
+.btn-radius-4 {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.font-size-13 {
+    font-size: 13px
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
