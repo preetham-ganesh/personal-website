@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #1addffe8;
+    color: #1addff;
     margin: 0;
 }
 
@@ -36,11 +36,11 @@ body {
 .btn {
     float: left;
     display: block;
-    color: #1addffe8;
+    color: #1addff;
     text-align: center;
     background-color: #003c67;
     text-decoration: none;
-    border-color: #1addffe8;
+    border-color: #1addff;
     border-style: solid;
     border-width: thin;
     margin-left: 5px;
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #1addffe8;
+    background-color: #1addff;
     color: #003c67;
 }
 
@@ -66,6 +66,18 @@ body {
 }
 
 .main {
-    max-width: 1024px;
-    margin: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/*Profile Introduction*/
+.introduction {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-image: linear-gradient(0deg, rgba(0, 33, 57, 0.4), rgba(0, 33, 57, 0.9)), 
+        url('../images/introduction-background.jpg');
+    background-size: cover;
+    background-position: center;
 }
