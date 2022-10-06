@@ -21,8 +21,8 @@ body {
 
 @media only screen and (max-width: 1099px) {
     body {
-        background: rgb(0,126,167);
-        background: linear-gradient(180deg, rgba(0,126,167,1) 33%, rgba(0,52,89,0.9) 67%, rgba(0,23,31,1) 100%);
+        background: rgb(0,23,31);
+        background: linear-gradient(180deg, rgba(0, 23, 31, 0.97) 35%, rgba(0, 52, 89, 0.9) 100%);
     }
     .content {
         width: 100%;
