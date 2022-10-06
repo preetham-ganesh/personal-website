@@ -63,7 +63,7 @@ body {
 
 /*Section Headings*/
 .section-heading-h2 {
-    color: #003459;
+    color: #1af7ff;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ body {
 
 /*About Section*/
 .about {
-    background-color: #E0FFFF;
+    background-color: #003459;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
@@ -88,25 +88,25 @@ body {
 
 .about-content {
     line-height: 1.5;
-    color: #00171F;
+    color: #90AABD;
 }
 
 .about-a {
     text-decoration: none;
-    color: #00171F;
+    color: #1af7ff;
 }
 
 .shadow {
-    -moz-box-shadow: 0 0 15px 5px #B0C4DE;
-    -webkit-box-shadow: 0 0 15px 5px #B0C4DE;
-    box-shadow: 0 0 15px 5px #B0C4DE;
+    -moz-box-shadow: 0 0 15px 5px #000B13;
+    -webkit-box-shadow: 0 0 15px 5px #000B13;
+    box-shadow: 0 0 15px 5px #000B13;
 }
 
 /*Hover on Animation*/
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: #00171F;
+    color: #1af7ff;
 }
 
 .hover-underline-animation:after {
@@ -117,7 +117,7 @@ body {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #00171F;
+    background-color: #1af7ff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
