@@ -75,31 +75,51 @@ body {
 
 /*About Section*/
 .about {
-    background-color: rgb(0, 33, 57);
+    background-color: #E0FFFF;
     padding: 20px;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     border: thin;
-}
-
-.about-heading {
-    width: 110px;
-}
-
-.about-profile-image {
-    display: block;
-    width: 250px;
-    height: 250px;
-    padding-right: 25px;
 }
 
 .about-content {
     line-height: 1.5;
-    color: rgb(144, 170, 189);
+    color: #00171F;
 }
 
 .about-a {
     text-decoration: none;
-    color: #1af7ffe7;
+    color: #00171F;
+}
+
+.shadow {
+    -moz-box-shadow: 0 0 15px 5px #B0C4DE;
+    -webkit-box-shadow: 0 0 15px 5px #B0C4DE;
+    box-shadow: 0 0 15px 5px #B0C4DE;
+}
+
+/*Hover on Animation*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #00171F;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #00171F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
