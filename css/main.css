@@ -27,8 +27,9 @@ body {
     margin: 0;
 }
 
+/*Introduction*/
 .introduction {
-    background-image: linear-gradient(180deg, rgba(0,23,31,0.7) 50%, rgba(0,52,89,0.9) 100%), url('../images/introduction-background.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 23, 31, 0.7) 50%, rgba(0, 52, 89, 0.9) 100%), url('../images/introduction-background.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -46,16 +47,59 @@ body {
 
 .introduction-h1 {
     font-size: 40px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
 .introduction-h4 {
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     margin-top: 0px;
     padding-bottom: 30px;
+}
+
+/*Section Headings*/
+.section-heading-h2 {
+    color: #003459;
+    text-align: center;
+}
+
+.section-heading {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*About Section*/
+.about {
+    background-color: rgb(0, 33, 57);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin;
+}
+
+.about-heading {
+    width: 110px;
+}
+
+.about-profile-image {
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding-right: 25px;
+}
+
+.about-content {
+    line-height: 1.5;
+    color: rgb(144, 170, 189);
+}
+
+.about-a {
+    text-decoration: none;
+    color: #1af7ffe7;
 }
