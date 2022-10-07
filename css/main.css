@@ -83,8 +83,8 @@ body {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
     border: thin;
 }
 
@@ -109,14 +109,34 @@ body {
     background-color: #ffffff;
 }
 
-.container-heading-h3 {
+.container-heading {
     color: #ffffff;
     text-decoration: none;
+}
+
+.container-content-bold {
+    font-weight: bold;
+}
+
+.capitalize {
+    text-transform: uppercase;
 }
 
 /*Font sizes*/
 .font-size-15 {
     font-size: 15px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-16 {
+    font-size: 16px;
 }
 
 /*Hover on Animation*/
