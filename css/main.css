@@ -69,35 +69,36 @@ body {
 }
 
 .section-heading {
-    padding-top: 10px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*About Section*/
-.about {
+/*Container*/
+.container {
     background-color: transparent;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     border: thin;
 }
 
-.about-content {
+.container-content {
     line-height: 1.5;
     color: #b8bbbc;
 }
 
-.about-a {
+.container-a {
     text-decoration: none;
     color: #1af7ff;
 }
 
-.shadow {
+.container-shadow {
     -moz-box-shadow: 0 0 15px 5px #000B13;
     -webkit-box-shadow: 0 0 15px 5px #000B13;
     box-shadow: 0 0 15px 5px #000B13;
