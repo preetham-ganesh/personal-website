@@ -55,13 +55,13 @@ body {
 .navbar a:hover {
     text-decoration: none;
     background-color: #1af7ffe7;
-    color: rgb(0, 33, 57);
+    color: #002139;
 }
 
 .navbar a.active {
     text-decoration: none;
     background-color: #1af7ffe7;
-    color: rgb(0, 33, 57);
+    color: #002139;
 }
 
 /*Button*/
@@ -90,12 +90,12 @@ body {
     background-size: cover;
     background-position: center;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .introduction-profile-container {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .introduction-profile-image {
@@ -129,7 +129,7 @@ body {
     }
 
     70% {
-        -webkit-box-shadow: 0 0 0 10px #1af7ff00;
+        -webkit-box-shadow: 0 0 0 15px #1af7ff00;
     }
 
     100% {
@@ -144,8 +144,8 @@ body {
     }
 
     70% {
-        -moz-box-shadow: 0 0 0 10px #1af7ff00;
-        box-shadow: 0 0 0 10px #1af7ff00;
+        -moz-box-shadow: 0 0 0 15px #1af7ff00;
+        box-shadow: 0 0 0 15px #1af7ff00;
     }
 
     100% {
@@ -158,16 +158,53 @@ body {
     font-size: 40px;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .introduction-designation {
     color: #FFFFFF;
     text-align: center;
-    font-size: 20px;
-    margin-top: 0px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.introduction-social-media-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.introduction-social-media-links-ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.introduction-social-media-links-li {
+    color: #1af7ff;
+    background-color: #00171f;
+}
+
+.introduction-social-media-links a:hover {
+    text-decoration: none;
+    background-color: #1af7ffe7;
+    color: #00171f;
+}
+
+.resume a:hover {
+    text-decoration: none;
+    background-color: #1af7ffe7;
+    color: rgb(0, 33, 57);
 }
 
 /*Section Headings*/
