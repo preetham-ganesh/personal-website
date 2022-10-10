@@ -98,66 +98,6 @@ body {
     margin-bottom: 30px;
 }
 
-@-webkit-keyframes pulsate {
-    0% {
-        -webkit-transform: scale(0.6, 0.6);
-        transform: scale(0.6, 0.6);
-        opacity: 0.0;
-    }
-
-    75% {
-        opacity: 1.0;
-    }
-
-    100% {
-        -webkit-transform: scale(1.0, 1.0);
-        transform: scale(1.0, 1.0);
-        opacity: 0.0;
-    }
-}
-
-@keyframes pulsate {
-    0% {
-        -webkit-transform: scale(0.6, 0.6);
-        transform: scale(0.6, 0.6);
-        opacity: 0.0;
-    }
-
-    75% {
-        opacity: 1.0;
-    }
-
-    100% {
-        -webkit-transform: scale(1.0, 1.0);
-        transform: scale(1.0, 1.0);
-        opacity: 0.0;
-    }
-}
-
-.pulse-base {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    margin: 0 auto;
-}
-
-.pulse-base:before {
-    content: '';
-    border: 15px solid #1af7ff4d;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    left: -15px;
-    bottom: -15px;
-    -webkit-animation: pulsate 1.6s ease-out;
-    animation: pulsate 1.6s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    opacity: 0.0;
-    z-index: 99;
-}
-
 .introduction-profile-image {
     display: block;
     width: 150px;
@@ -165,6 +105,53 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+}
+
+.pulse {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 0 #1af7ff4d;
+    animation: pulse 2s infinite;
+}
+
+.pulse:hover {
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #1af7ff4d;
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 10px #1af7ff00;
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 #1af7ff00;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #1af7ff4d;
+        box-shadow: 0 0 0 0 #1af7ff4d;
+    }
+
+    70% {
+        -moz-box-shadow: 0 0 0 10px #1af7ff00;
+        box-shadow: 0 0 0 10px #1af7ff00;
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 #1af7ff00;
+        box-shadow: 0 0 0 0 #1af7ff00;
+    }
 }
 
 .introduction-name {
