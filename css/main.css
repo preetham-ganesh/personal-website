@@ -4,12 +4,12 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    margin: 0;
-    background: rgb(0, 23, 31);
-    background: rgb(0, 23, 31);
-    background: linear-gradient(180deg, rgba(0, 23, 31, 1) 33%, rgba(0, 52, 89, 1) 67%, rgba(0, 23, 31, 1) 100%);
+    margin: 0px;
+    background: #00171F;
+    background: linear-gradient(180deg, #00171f 33%, #003459 67%, #00171f 100%);
 }
 
+/*Content Section based on screen width*/
 @media only screen and (min-width: 1100px) {
     .content {
         width: 1100px;
@@ -23,16 +23,77 @@ body {
     }
 }
 
-.main {
-    padding: 0;
-    margin: 0;
+/*Navigation bar*/
+.navbar {
+    display: flex;
+    background-color: #00171f;
+    box-shadow: 0 5px 5px 0 #000B13;
+    padding: 10px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
 }
 
-/*Introduction*/
+.navbar-ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar-li {
+    color: #1af7ff;
+}
+
+.navbar .btn {
+    border-color: #00171f;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    background-color: #1af7ffe7;
+    color: rgb(0, 33, 57);
+}
+
+.navbar a.active {
+    text-decoration: none;
+    background-color: #1af7ffe7;
+    color: rgb(0, 33, 57);
+}
+
+/**/
+.btn {
+    float: left;
+    display: block;
+    color: #1af7ff;
+    text-align: center;
+    background-color: #00171f;
+    text-decoration: none;
+    border-color: #1af7ff;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn-radius-4 {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/*Introduction Section*/
+section#introduction {
+    min-height: 0px;
+}
+
 .introduction {
-    background-image: linear-gradient(0deg, rgba(0, 23, 31, 0.7) 50%, rgba(0, 52, 89, 0.9) 100%), url('../images/introduction-background.jpg');
+    background-image: linear-gradient(180deg, #00171fd6 33%, #003459af 67%, #00171fd6 100%), url('../images/introduction-background.jpg');
     background-size: cover;
     background-position: center;
+    padding-bottom: 20px;
 }
 
 .introduction-profile-image {
@@ -46,7 +107,7 @@ body {
     margin-right: auto;
 }
 
-.introduction-heading-h1 {
+.introduction-name {
     font-size: 40px;
     color: #FFFFFF;
     text-align: center;
@@ -54,12 +115,12 @@ body {
     margin-bottom: 5px;
 }
 
-.introduction-heading-h4 {
+.introduction-designation {
     color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     margin-top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 /*Section Headings*/
@@ -74,92 +135,19 @@ body {
     margin-right: auto;
 }
 
-/*Container*/
-.container {
-    background-color: transparent;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-    border: thin;
-}
-
-.container-content {
-    line-height: 1.5;
-    color: #b8bbbc;
-}
-
-.container-a {
-    text-decoration: none;
-    color: #1af7ff;
-}
-
-.container-shadow {
-    -moz-box-shadow: 0 0 15px 5px #000B13;
-    -webkit-box-shadow: 0 0 15px 5px #000B13;
-    box-shadow: 0 0 15px 5px #000B13;
-}
-
-.container-logo {
-    height: 32px;
-    background-color: #ffffff;
-}
-
-.container-heading {
-    color: #00CCFF;
-    text-decoration: none;
-}
-
-.container-content-bold {
-    font-weight: bold;
-}
-
-.capitalize {
-    text-transform: uppercase;
-}
-
 /*Font sizes*/
 .font-size-15 {
     font-size: 15px;
-}
-
-.font-size-20 {
-    font-size: 20px;
 }
 
 .font-size-18 {
     font-size: 18px;
 }
 
-.font-size-16 {
-    font-size: 16px;
+.font-size-14 {
+    font-size: 14px;
 }
 
-/*Hover on Animation*/
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: #1af7ff;
-}
-
-.hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: #1af7ff;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.capitalize {
+    text-transform: uppercase;
 }
