@@ -49,6 +49,7 @@ body {
 }
 
 .navbar .btn {
+    background-color: #00171f;
     border-color: #00171f;
 }
 
@@ -70,7 +71,7 @@ body {
     display: block;
     color: #1af7ff;
     text-align: center;
-    background-color: #00171f;
+    background-color: #003459;
     text-decoration: none;
     border-color: #1af7ff;
     border-style: solid;
@@ -192,19 +193,13 @@ body {
 
 .introduction-social-media-links-li {
     color: #1af7ff;
-    background-color: #00171f;
+    background-color: #003459;
 }
 
 .introduction-social-media-links a:hover {
     text-decoration: none;
     background-color: #1af7ffe7;
     color: #00171f;
-}
-
-.resume a:hover {
-    text-decoration: none;
-    background-color: #1af7ffe7;
-    color: rgb(0, 33, 57);
 }
 
 /*Section Headings*/
@@ -237,3 +232,56 @@ body {
 }
 
 /*About Section*/
+.about-card {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: thin;
+}
+
+.card-content {
+    line-height: 1.5;
+    color: #b8bbbc;
+}
+
+.card-a {
+    text-decoration: none;
+    color: #1af7ff;
+}
+
+.card-shadow {
+    -moz-box-shadow: 0 0 15px 5px #000B13;
+    -webkit-box-shadow: 0 0 15px 5px #000B13;
+    box-shadow: 0 0 15px 5px #000B13;
+}
+
+/*Hover on Animation*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #1af7ff;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #1af7ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
