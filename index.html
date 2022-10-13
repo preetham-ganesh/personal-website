@@ -18,7 +18,11 @@
         <nav class="navbar">
             <div class="content">
                 <a class="btn btn-radius-4 capitalize font-size-14" href="index.html">Home</a>
-                <div id="navbar-icon"><span></span><span></span><span></span></div>
+                <div class="navbar-icon" onclick="myFunction(this)">
+                        <div class="navbar-icon-bar-1"></div>
+                        <div class="navbar-icon-bar-2"></div>
+                        <div class="navbar-icon-bar-3"></div>
+                    </div>
                 <!--<ul class="navbar-ul">
                     <li><a class="btn btn-radius-4 capitalize font-size-14" href="#about">About</a></li>
                     <li><a class="btn btn-radius-4 capitalize font-size-14" href="#experience">Experience</a></li>
@@ -77,6 +81,11 @@
                     </p>
                     <p class="card-content">If you want to connect with me, you can contact me directly at
                         preetham.ganesh2021@gmail.com.</p>
+                        <div class="navbar-icon" onclick="myFunction(this)">
+                            <div class="navbar-icon-bar-1"></div>
+                            <div class="navbar-icon-bar-2"></div>
+                            <div class="navbar-icon-bar-3"></div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -115,12 +124,10 @@
                 </div>
             </div>
         </section>
-    <script>
-        $(document).ready(function(){
-            $('navbar-icon').click(function(){
-                $(this).toggleClass('open');
-            });
-        });
-    </script>
+        <script>
+            function myFunction(x) {
+              x.classList.toggle("change");
+            }
+            </script>
     </body>
 </html>
