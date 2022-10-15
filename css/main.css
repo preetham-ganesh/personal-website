@@ -198,6 +198,10 @@ body {
     font-size: 20px;
 }
 
+.font-size-19 {
+    font-size: 19px;
+}
+
 .font-size-16 {
     font-size: 16px;
 }
@@ -291,12 +295,19 @@ body {
 }
 
 .grid-card {
-    background-color: transparent;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
     padding-right: 25px;
     border: thin;
+}
+
+.grid-card-education .grid-card-experience {
+    background: transparent;
+}
+
+.grid-card-hepatitis {
+    background: #003459af, url('../images/introduction-background.jpg');
 }
 
 .grid-card-btn a:hover {
@@ -305,39 +316,21 @@ body {
     color: #00171f;
 }
 
-/**/
-.gg-arrow-right-o {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    width: 22px;
-    height: 22px;
-    border: 2px solid;
-    transform: scale(var(--ggs,1));
-    border-radius: 20px
-   }
-   
-   .gg-arrow-right-o::after,
-   .gg-arrow-right-o::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    right: 4px
-   }
-   
-   .gg-arrow-right-o::after {
-    width: 6px;
-    height: 6px;
-    border-top: 2px solid;
-    border-right: 2px solid;
-    transform: rotate(45deg);
-    bottom: 6px
-   }
-   
-   .gg-arrow-right-o::before {
-    width: 10px;
-    height: 2px;
-    bottom: 8px;
-    background: currentColor
-   } 
+.card-btn-links {
+    margin-left: 0px;
+}
+
+.card-btn-links-ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: left;
+}
+
+.card-btn-links a:hover {
+    text-decoration: none;
+    background-color: #1af7ffe7;
+    color: #00171f;
+}
