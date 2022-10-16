@@ -17,6 +17,22 @@
     </head>
 
     <body>
+        <!--Navigation Bar-->
+        <div class="navbar shadow" id="navbar">
+            <div class="content">
+                <ul class="navbar-ul">
+                    <li><a class="btn btn-radius-4 font-size-14 capitalize" href="#">Home</a></li>
+                    <li><a class="btn btn-radius-4 font-size-14 capitalize" href="#about">About</a></li>
+                    <li><a class="btn btn-radius-4 font-size-14 capitalize" href="#experience">Experience</a></li>
+                    <li><a class="btn btn-radius-4 font-size-14 capitalize" href="#education">Education</a></li>
+                    <li><a class="btn btn-radius-4 font-size-14 capitalize" href="#publications">Publications</a></li>
+                    <li><a class="btn btn-radius-4 font-size-14 capitalize" href="#projects">Projects</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="navigationBar()">
+                        <i class="fa fa-bars"></i>
+                      </a></li>
+                </ul>
+            </div>
+        </div>
         <!--Introduction-->
         <section class="introduction" id="introduction">
             <div class="content">
@@ -54,7 +70,7 @@
                 <div class="section-heading">
                     <h2 class="section-heading-h2">About Me</h2>
                 </div>
-                <div class="card card-shadow">
+                <div class="card shadow">
                     <p class="card-content font-size-16"><span class="card-a">"Prepare for the worst but hope for the
                             best."</span> - Benjamin Disraeli.</p>
                     <p class="card-content font-size-16">
@@ -83,13 +99,14 @@
                 </div>
             </div>
         </section>
+        <!--Experience-->
         <section id="experience">
             <div class="content">
                 <div class="section-heading">
                     <h2 class="section-heading-h2">Experience</h2>
                 </div>
                 <div class="grid">
-                    <div class="grid-card card-shadow">
+                    <div class="grid-card shadow">
                         <p class="card-a font-size-21 card-heading">Software Developer - AI &amp; ML
                         </p>
                         <p class="card-content font-size-16">
@@ -101,7 +118,7 @@
                         <div class="grid-card-btn"><a class="btn btn-radius-4 font-size-14" href="#"
                                 title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></div>
                     </div>
-                    <div class="grid-card card-shadow">
+                    <div class="grid-card shadow">
                         <p class="card-a font-size-21 card-heading">Search Language Specialist</p>
                         <p class="card-content font-size-16">
                             <a class="card-a" href="https://www.qualitestgroup.com" target="_blank"><span
@@ -111,7 +128,7 @@
                         <div class="grid-card-btn"><a class="btn btn-radius-4 font-size-14" href="#"
                                 title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></div>
                     </div>
-                    <div class="grid-card card-shadow">
+                    <div class="grid-card shadow">
                         <p class="card-a font-size-21 card-heading">Graduate Student Researcher
                         </p>
                         <p class="card-content font-size-16">
@@ -131,7 +148,7 @@
                     <h2 class="section-heading-h2">Education</h2>
                 </div>
                 <div class="grid">
-                    <div class="grid-card card-shadow">
+                    <div class="grid-card shadow">
                         <p class="card-a font-size-21 card-heading">Master of Science in Computer
                             Science</p>
                         <p class="card-content font-size-16"><a class="card-a" href="https://www.uta.edu"
@@ -142,9 +159,9 @@
                                 href="sections/education/masters.html" title="Click for more info">More info <i
                                     class="fa fa-arrow-right"></i></a></div>
                     </div>
-                    <div class="grid-card card-shadow">
+                    <div class="grid-card shadow">
                         <p class="card-a font-size-21 card-heading">Bachelor of Technology in Computer
-                            Science &amp; Engineering</p>
+                            Science</p>
                         <p class="card-content font-size-16"><a class="card-a" href="https://www.amrita.edu"
                                 target="_blank"><span class="hover-underline-animation">Amrita
                                     Vishwa
@@ -162,6 +179,32 @@
                 <div class="section-heading">
                     <h2 class="section-heading-h2">Publications</h2>
                 </div>
+                <div class="grid">
+                    <div class="grid-card card-shadow">
+                        <p class="card-a font-size-21 card-heading">POS-Tagging based Neural Machine Translation System</p>
+                        <div class="grid-card-btn"><a class="btn btn-radius-4 font-size-14" href="#" title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="grid-card card-shadow">
+                        <p class="card-a font-size-21 card-heading">Human gym activity recognition using RGB Camera</p>
+                        <div class="grid-card-btn"><a class="btn btn-radius-4 font-size-14" href="#" title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="grid-card card-shadow">
+                        <p class="card-a font-size-21 card-heading">Prediction of Rainfall Quantity using Ensemble Regression</p>
+                        <div class="grid-card-btn"><a class="btn btn-radius-4 font-size-14" href="#" title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="grid-card card-shadow">
+                        <p class="card-a font-size-21 card-heading">Prediction of Rainfall Quantity using Regression</p>
+                        <div class="grid-card-btn"><a class="btn btn-radius-4 font-size-14" href="#" title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="grid-card card-shadow">
+                        <p class="card-a font-size-21 card-heading">Comparison on Classification of Hepatitis</p>
+                        <div class="card-btn-links">
+                            <ul class="card-btn-links-ul">
+                                <li><a class="btn btn-radius-4 font-size-14" href="sections/publications/hepatitis.html" title="Click for more info">More info <i class="fa fa-arrow-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="projects">
@@ -171,13 +214,41 @@
                 </div>
             </div>
         </section>
-        <section id="certifications">
-            <div class="content">
-                <div class="section-heading">
-                    <h2 class="section-heading-h2">Certifications</h2>
+        <!--Footer-->
+        <section id="footer">
+            <div class="footer shadow">
+                <div class="content">
+                    <div class="footer-social-media-links">
+                        <ul class="footer-social-media-links-ul">
+                            <li><a class="font-size-25 btn" href="https://www.github.com/preetham-ganesh/" target="_blank"
+                                    title="Check out my GitHub"><i class="fa fa-github"></i></a></li>
+                            <li><a class="font-size-25 btn" href="https://www.linkedin.com/in/preethamganesh/"
+                                    target="_blank" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="font-size-25 btn" href="https://www.instagram.com/preethamganesh/" target="_blank"
+                                    title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="font-size-25 btn" href="https://www.facebook.com/preetham.ganesh.583"
+                                    target="_blank" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-copyrights">
+                        <a class="font-size-14 card-a" href="https://github.com/preetham-ganesh/personal-website"
+                            target="_blank"><span class="hover-underline-animation">Designed & Built by Preetham
+                                Ganesh</span></a>
+                    </div>
                 </div>
+                
             </div>
         </section>
+        <script>
+            function navigationBar() {
+  var x = document.getElementById("navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+        </script>
     </body>
 
 </html>
