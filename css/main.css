@@ -422,13 +422,12 @@ body {
 }
 
 .footer .btn {
-    border: none;
-    color: #b8bbbc;
+    border: #00171f;
     background-color: #00171f;
-    padding: 0;
 }
 
-.footer a:hover {
+.footer .btn:hover {
     text-decoration: none;
-    color: #1af7ffe7;
+    color: #00171f;
+    background-color: #1af7ffe7;
 }
